@@ -1,2 +1,2 @@
-# Elharam4_ddos_attack
-Ddos attack by ELHARAM4
+# Simple Stressor
+Simple Stressing of ICMP Protocol
